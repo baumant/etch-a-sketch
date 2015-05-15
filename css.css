@@ -1,0 +1,23 @@
+
+.container{
+    width: 512px;
+	height: 512px;
+    line-height: 0;
+    background-color: #B3C9BE;
+	margin: auto;
+	
+	}
+.box {
+    display: inline-block;
+	width: 32px;
+	height: 32px;
+	opacity: 1;
+	
+}
+.buttons {
+	margin: auto;
+	width: 100%;
+	text-align: center;
+
+}
+
