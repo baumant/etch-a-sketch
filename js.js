@@ -12,6 +12,12 @@ $(document).ready(function () {
         };
     };
 
+    function testInput() {
+        while (dim>50) {
+            dim = prompt("How many blocks per side?  (1 - 50)");
+        };
+    }
+
     createGrid();
 
     $('.box').mouseenter(function () {
@@ -22,6 +28,7 @@ $(document).ready(function () {
         $('.container').empty();
 
         dim = prompt("How many blocks per side?  (1 - 50)");
+        testInput();
 
         var boxD = 512 / dim;
 
@@ -39,7 +46,8 @@ $(document).ready(function () {
         $('.container').empty();
 
         dim = prompt("How many blocks per side?  (1 - 50)");
-
+        testInput();
+        
         var boxD = 512 / dim;
 
         createGrid();
@@ -57,7 +65,8 @@ $(document).ready(function () {
         $('.container').empty();
 
         dim = prompt("How many blocks per side?  (1 - 50)");
-
+        testInput();
+        
         var boxD = 512 / dim;
 
         createGrid();
